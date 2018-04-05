@@ -1,13 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "gulp": "./node_modules/.bin/gulp"
+    "gulp": "./node_modules/.bin/gulp",
+    "server": "./node_modules/.bin/browser-sync start --server 'dist' --files 'dist'"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
     "gulp": "^4.0.0",
     "gulp-nunjucks-render": "^2.2.2",
     "gulp-postcss": "^7.0.1",
