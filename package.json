@@ -1,5 +1,16 @@
 {
+  "name": "starter-kit",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulozoom/starter-kit.git"
+  },
+  "author": {
+    "name": "Paulo",
+    "email": "hi@paulo.is",
+    "url": "https://paulo.is"
+  },
+  "license": "MIT",
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
     "server": "./node_modules/.bin/browser-sync start --server 'dist' --files 'dist'"
