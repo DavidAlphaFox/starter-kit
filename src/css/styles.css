@@ -1,0 +1,7 @@
+/* @import "tailwindcss/preflight"; */
+
+@import "tailwindcss/components";
+/* Custom components: @import "..." */
+
+@import "tailwindcss/utilities";
+/* Custom utilities: @import "..." */

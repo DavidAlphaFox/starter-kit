@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^4.0.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss-import": "^11.1.0",
+    "stimulus": "^1.0.1",
+    "tailwindcss": "^0.5.2",
+    "webpack": "^4.5.0",
+    "webpack-stream": "^4.0.3"
+  }
+}
