@@ -15,3 +15,4 @@ Build:
 Setup:
 * Install dependencies with `yarn install`
 * Build the site (to `dist/`) with `yarn run gulp build`
+* Run the built site with `yarn run server`
